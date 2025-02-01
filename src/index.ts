@@ -21,7 +21,7 @@ app.post("/download", async (c) => {
 
     // Execute Python script
     const process = Bun.spawn([
-      "python",
+      "python3",
       "./downloader.py",
       url,
       filename,
