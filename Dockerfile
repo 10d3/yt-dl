@@ -7,6 +7,7 @@ RUN apt-get update && \
     python3 \
     ffmpeg \
     python3-pip \
+    yt-dlp \
     python3-dev \
     build-essential \
     && rm -rf /var/lib/apt/lists/*
